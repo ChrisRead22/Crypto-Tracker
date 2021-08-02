@@ -18,13 +18,13 @@ useEffect(() => {
   return (
     <div className="App">
       <div className="coin-search">
-        <h1 className="coin-text">
+        <h1 className="coin-text">Search a currency</h1>
           <form>
             <input type="text" placeholder="Search"
             className="coin-input"/>
           </form>
-        </h1>
       </div>
+
     </div>
   );
 }
