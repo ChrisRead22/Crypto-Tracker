@@ -17,7 +17,9 @@ useEffect(() => {
 
   return (
     <div className="App">
-      <h1>API</h1>
+      <div className="coin-search">
+        
+      </div>
     </div>
   );
 }
