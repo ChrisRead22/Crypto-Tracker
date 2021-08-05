@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import './App.css';
+import Coin from './Coin';
 
 
 
@@ -35,7 +36,9 @@ const filteredCoins = coins.filter(coin =>
           </form>
       </div>
         {filteredCoins.map(coin => {
-          
+          return (
+            <Coin key={coin.id} name={coin.name} image={coin.image} />
+          )
         })}
     </div>
   );
