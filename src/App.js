@@ -21,6 +21,10 @@ const handleChange = event => {
   setSearch(event.target.value)
 }
 
+const filteredCoins = coins.filter(coin => 
+  coin.name.toLowerCase().includes(search.toLocaleLowerCase())
+  )
+
   return (
     <div className="App">
       <div className="coin-search">
