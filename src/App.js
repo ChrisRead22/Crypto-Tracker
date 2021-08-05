@@ -22,7 +22,7 @@ const handleChange = event => {
 }
 
 const filteredCoins = coins.filter(coin => 
-  coin.name.toLowerCase().includes(search.toLocaleLowerCase())
+  coin.name.toLowerCase().includes(search.toLowerCase())
   )
 
   return (
@@ -34,7 +34,9 @@ const filteredCoins = coins.filter(coin =>
             className="coin-input" onChange={handleChange}/>
           </form>
       </div>
-
+        {filteredCoins.map(coin => {
+          
+        })}
     </div>
   );
 }
