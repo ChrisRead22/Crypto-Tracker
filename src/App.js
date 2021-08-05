@@ -17,6 +17,10 @@ useEffect(() => {
   }).catch(error => alert('ERROR'))
 }, []);
 
+const handleChange = event => {
+  setSearch(event.target.value)
+}
+
   return (
     <div className="App">
       <div className="coin-search">
