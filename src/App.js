@@ -37,7 +37,11 @@ const filteredCoins = coins.filter(coin =>
       </div>
         {filteredCoins.map(coin => {
           return (
-            <Coin key={coin.id} name={coin.name} image={coin.image} />
+            <Coin key={coin.id}
+             name={coin.name}
+             image={coin.image} 
+             
+             />
           )
         })}
     </div>
