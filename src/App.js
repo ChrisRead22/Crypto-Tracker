@@ -42,6 +42,7 @@ const filteredCoins = coins.filter(coin =>
              image={coin.image} 
              symbol={coin.symbol}
              volume={coin.market_cap}
+             price={coin.current_price}
              />
           )
         })}
