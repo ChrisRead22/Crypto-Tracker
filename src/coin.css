@@ -34,3 +34,14 @@
 .coin-symbol {
     text-transform: uppercase;
 }
+
+.coin-data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.coin-price {
+    width: 110px;
+}
