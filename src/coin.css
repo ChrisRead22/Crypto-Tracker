@@ -12,3 +12,11 @@
     border-bottom: 1px solid #d7d7d7;
     width: 900px;
 }
+
+.coin {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
