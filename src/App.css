@@ -6,3 +6,9 @@
   background-color: #1a1a1c;
   color: #fff;
 }
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
